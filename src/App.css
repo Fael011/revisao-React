@@ -16,9 +16,19 @@ header h1{
 }
 
 main{
-    border: 1px solid red;
     height: calc(100vh - 69px);
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+input{
+    margin: 0.5rem;
+}
+
+button{
+    background-color: #000022;
+    color: #fff;
+    padding: 0.8rem;
+    border-radius: 10px;
 }
